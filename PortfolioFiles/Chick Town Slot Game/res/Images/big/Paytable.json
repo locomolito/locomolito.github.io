@@ -1,0 +1,45 @@
+{
+"images": ["Paytable.png"],
+"frames": [
+
+    [1857, 1381, 49, 49], 
+    [1977, 72, 49, 49], 
+    [2, 2102, 49, 49], 
+    [1857, 1346, 115, 33], 
+    [2101, 2, 115, 33], 
+    [1977, 37, 115, 33], 
+    [1028, 2, 947, 682], 
+    [975, 1962, 854, 636], 
+    [2, 752, 975, 660], 
+    [979, 1311, 876, 649], 
+    [1028, 686, 980, 623], 
+    [2, 1414, 971, 651], 
+    [2, 2, 1024, 748], 
+    [2, 2067, 122, 33], 
+    [1857, 1311, 122, 33], 
+    [1977, 2, 122, 33]
+],
+"animations": {
+    
+        "close_disabled":[0], 
+        "close_mouseout":[1], 
+        "close_mouseover":[2], 
+        "next_disabled":[3], 
+        "next_mouseout":[4], 
+        "next_mouseover":[5], 
+        "page1":[6], 
+        "page2":[7], 
+        "page3":[8], 
+        "page4":[9], 
+        "page5":[10], 
+        "page6":[11], 
+        "paytableBG":[12], 
+        "prev_disabled":[13], 
+        "prev_mouseout":[14], 
+        "prev_mouseover":[15]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:66c638be566d1ddf29b212989a982b64:776c940ea0ef44d106aac9f302a70b40:75936d7d44f29808c72efd62af2cd3a2$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EaselJS"
+]
+}

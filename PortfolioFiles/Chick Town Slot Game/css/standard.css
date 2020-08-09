@@ -1,0 +1,157 @@
+html, body {
+    width:  100%;
+    height: 100%;
+    margin: 0px;
+    /*overflow: hidden;*/
+    background-image: url("../res/Images/MainBG.png");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+
+/*FONTS*/
+@font-face {
+  font-family: 'ObelixPro';
+  src: url('fonts/ObelixPro-Bold.eot');
+  src: url('fonts/ObelixPro-Bold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/ObelixPro-Bold.woff2') format('woff2'),
+       url('fonts/ObelixPro-Bold.woff') format('woff'),
+       url('fonts/ObelixPro-Bold.ttf') format('truetype'),
+       url('fonts/ObelixPro-Bold.svg#ObelixPro-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OCRAStd';
+  src: url('fonts/OCRAStd.eot');
+  src: url('fonts/OCRAStd.eot?#iefix') format('embedded-opentype'),
+       url('fonts/OCRAStd.woff2') format('woff2'),
+       url('fonts/OCRAStd.woff') format('woff'),
+       url('fonts/OCRAStd.ttf') format('truetype'),
+       url('fonts/OCRAStd.svg#OCRAStd') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Moderna';
+  src: url('fonts/Moderna.eot');
+  src: url('fonts/Moderna.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Moderna.woff2') format('woff2'),
+       url('fonts/Moderna.woff') format('woff'),
+       url('fonts/Moderna.ttf') format('truetype'),
+       url('fonts/Moderna.svg#MainframeBBBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MainframeBBBold';
+  src: url('fonts/MainframeBBBold.eot');
+  src: url('fonts/MainframeBBBold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/MainframeBBBold.woff2') format('woff2'),
+       url('fonts/MainframeBBBold.woff') format('woff'),
+       url('fonts/MainframeBBBold.ttf') format('truetype'),
+       url('fonts/MainframeBBBold.svg#MainframeBBBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/*PRELOADER*/
+/*hidden will only be visible once preloading starts. 
+also need to hide until js script loads and scale it based on window dimension
+code that handles the progress movement is in asset manager
+require the progressBarBg.png and logo from res folder
+#preloadWrapper - required by baseclass for centering.
+*/
+#preloadWrapper{
+    width: 100%;
+    height: 100%;
+    
+    visibility: hidden;
+    position: absolute;
+}
+#preloadDimmer{
+    background: #000;
+    opacity: 0.9;   
+    position:absolute;
+    width: 100%;
+    height: 100%;
+}
+#preloadAlign{
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+#preloaderContainer{
+    position: relative;
+}
+#preloadElements{
+    position:relative; 
+    display: inline-block;
+}
+/*Preload Message*/
+#preloadMessageWrapper{
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    text-align: center;
+}
+/*Preload Text*/
+#preloadTxtMsg{
+    display: inline;
+}
+
+
+
+/*MANIPULATE CANVASES HERE*/
+#canvasWrapper{
+    position: absolute;
+    
+    width:100%;
+    height: 100%;
+}
+#canvasAlign{
+    display: inline-block;
+    position: absolute;
+    
+    left:50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); 
+}
+#canvasScale{
+    display: inline-block;
+    position: relative;
+}
+canvas {
+    image-rendering: optimizeSpeed;             
+    image-rendering: -moz-crisp-edges;          
+    image-rendering: -webkit-optimize-contrast; 
+    image-rendering: -o-crisp-edges;           
+/*    image-rendering: pixelated;                */
+    image-rendering: optimizeQuality;
+    -ms-interpolation-mode: nearest-neighbor;  
+    font-family: ObelixPro,OCRAStd,MainframeBBBold;
+}
+
+
+/*PLAY LANDSCAPE MESSAGE*/
+/* will show once window is (window.innerHeight > window.innerWidth)
+dynamically created in Theme Class onResize function*/
+#playLandscape{
+    background-image: url("../res/Images/landscapeMessage.gif");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+#playLandscapeContainer{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}

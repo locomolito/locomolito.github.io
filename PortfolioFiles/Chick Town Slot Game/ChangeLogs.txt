@@ -1,0 +1,108 @@
+05-12-2015
+- bug on specific wheel anticipation. fixed
+
+CSS
+ - adjusted canvas so that it will always be centered in the window. see canvas {}
+
+
+05-11-2015 - PM
+- removed background as part of canvas. background will now be part of css so that it can scale based on window size. see css for integration.
+	html, body {
+    	width:  100%;
+	    height: 100%;
+	    margin: 0px;
+	    overflow: hidden;
+	    background-image: url("../res/Images/MainBG.png");
+	    background-repeat:no-repeat;
+	    background-size:100% 100%;
+	}
+
+Sounds
+ - modified 2nd parameter of playSound(id,loopCount). instead of loopCount it will now be an object. some sounds requires manipulations. see http://www.createjs.com/Docs/SoundJS/classes/Sound.html
+
+controls
+  - linked controls popup to playBtnSounds.
+
+slotreel
+ - minor adjustment on how to call anticipation.
+
+
+
+05-11-2015
+- setup websocket. not yet finished.
+- spin
+   - added 10secs spin timeout
+- controls.
+   - modified popup ui.
+   - adjusted look for stop auto spin. moved count  inside the borders of button.
+
+slotTheme
+	- alertbox added.
+	- use slotReel.params.reelStillSpinning to check if wheel is spinning under checkButtonStats function.
+
+- bonus
+   - fix pick() issue.
+   - fix endBonus() function.
+
+- Slotreel
+   - added anticipation. push datas. same as old codes.
+      - minor modification on functions.
+         - see notes on subReel for functions.
+                - anticipationFound
+                - anticipationLosts
+                - playWheelAnimation
+   - manipulate anticipationTime for length.
+   - linemap current values DC and CH
+
+Sounds
+   - needed <script src="https://code.createjs.com/soundjs-0.6.0.min.js"></script> on html page.
+   - use assets.playSound(id,loopCount).
+            - id = is use in loading the sound.
+            - how many times it will play.
+   - check SubSoundManager.
+
+
+
+05-06-2015
+- betInfo
+    - removed lines from baseclass and standard assets spritesheets.
+    - see notes on subclass for sample on how to setup lines UI.
+
+- slotTheme
+    - added a new function stopAllAnimations();
+         - needed a way for baseclass to stop all animations and timers when line buttons are clicked.
+    - added a new function resumeAnimations();
+     	- needed a way for baseclass to resume animations and timers when popups are closed.
+   - added a new function checkButtonStats()
+	- needed a way for baseclass to check if you want to disable or enable all buttons.
+    - added browser detection. Needed for aligning textfields across multiple browsers.
+	- call using this.params.browser.
+
+- Fonts. - THIS IS A TEST TO SEE IF IT CAN HANDLE FONTS
+    - see betinfo for sample. uses css.
+    - has issue with browsers. need to manually align. use slotTheme browser detection for fix.
+    - i cant find a global fix that will work on all browsers alignment. do share if you find some.
+
+- BigWin
+  - call using this.params.bigWinningType. same as from old baseclass.
+  - create a seperate class for animating your big win.
+
+- controls
+  - moved betinfo down a little.
+  - more space for message.
+  - auto spin and setting added.
+
+
+
+
+04-30-2015:
+- symbol animation
+  - avoid outside variables. if your having an issue targetting with this. let me know. 
+  - added coordinates x and y in play animation.
+  - instead of playing under stage, animations will now play under a container. added to slotTheme for layering. (this.params.animatedContainer).
+ - slottheme now accessible from AnimatedSymbols.
+- slotreel.
+   - see comments for manipulating timers.
+- AssetManager can support generating sprite from json based on prefix searching. see SymbolController class for guide.
+
+

@@ -1,0 +1,25 @@
+{
+"images": ["jackpotAnim.png"],
+"frames": [
+
+    [2, 558, 504, 124], 
+    [2, 2, 819, 342], 
+    [2, 346, 476, 210], 
+    [480, 346, 305, 121], 
+    [2, 684, 482, 119], 
+    [2, 805, 505, 102]
+],
+"animations": {
+    
+        "grandTxt":[0], 
+        "jpAnimBG":[1], 
+        "majorTxt":[2], 
+        "miniTxt":[3], 
+        "minorTxt":[4], 
+        "youWonTxt":[5]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:fc9d0f876ed72bd2d7ce7ca5d8207527:b86aeb3a002577d5bfe6a7545e4046a6:aae2de892ed541c00bb1ae9ffc2b4ade$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EaselJS"
+]
+}

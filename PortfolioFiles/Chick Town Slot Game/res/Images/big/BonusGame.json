@@ -1,0 +1,41 @@
+{
+"images": ["BonusGame.png"],
+"frames": [
+
+    [2, 2, 1024, 748], 
+    [962, 752, 250, 587], 
+    [2, 752, 958, 140], 
+    [954, 1341, 242, 24], 
+    [1214, 880, 144, 437], 
+    [1028, 2, 152, 437], 
+    [1214, 441, 144, 437], 
+    [1182, 2, 144, 437], 
+    [774, 894, 163, 437], 
+    [1028, 441, 157, 41], 
+    [1198, 1341, 163, 31], 
+    [774, 1333, 178, 34], 
+    [1028, 484, 160, 31], 
+    [2, 894, 770, 481]
+],
+"animations": {
+    
+        "bonusGameBG":[0], 
+        "bonusLady":[1], 
+        "bonusMsgBG":[2], 
+        "continue":[3], 
+        "dressBlue":[4], 
+        "dressBrown":[5], 
+        "dressGreen":[6], 
+        "dressPink":[7], 
+        "dressPurple":[8], 
+        "miniLabelBG":[9], 
+        "totalFS":[10], 
+        "totalWins":[11], 
+        "tultalMultiplier":[12], 
+        "winSummary":[13]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:f2c6f2509102a6f7894740c75db83407:c7abe37ce852bb13f5f2a7bd55dc14aa:1462d77fd9bd89850b1c9e4600299d31$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EaselJS"
+]
+}

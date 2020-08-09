@@ -1,0 +1,329 @@
+/*PRELOADER*/
+/*hidden will only be visible once preloading starts. 
+also need to hide until js script loads and scale it based on window dimension
+code that handles the progress movement is in asset manager
+require the progressBarBg.png and logo from res folder
+#preloadWrapper - required by baseclass for centering.
+*/
+#progressWrapper{
+    position: relative;
+    background-image: url("../res/Images/progressBarBg_480x320.png");
+    background-repeat: no-repeat;
+    width: 331px;
+    height: 10px;
+}
+#progressBar{
+    /*max-width value needs to be exact. needed by assetmanager to properly compute the progress bar*/
+      border-radius: 20px;
+      width: 0px;
+      height: 5.1px;
+      background-image: url("../res/Images/progressBar_480x320.png");
+      margin-left: 1px;
+      margin-top: 1.9px;
+      position: absolute;
+      max-width: 329px;
+}
+#preloadLogo{
+    /*width and height based on actual dimension of image*/
+    /*using transform because my game logo is too big*/
+    background-image: url("../res/Images/logo.png");
+    background-repeat: no-repeat;
+    width: 322px;
+    height: 146px;
+    position: relative;
+    margin: 0px auto -10%;
+    transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+}
+
+#preloadWrapper{
+    width: 100%;
+    height: 100%;
+    
+    visibility: hidden;
+    position: absolute;
+}
+#preloadDimmer{
+    background: #000;
+    opacity: 0.9;   
+    position:absolute;
+    width: 100%;
+    height: 100%;
+}
+#preloadAlign{
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+#preloaderContainer{
+    position: relative;
+}
+#preloadElements{
+    position:relative; 
+    display: inline-block;
+}
+
+
+/*Preload Message*/
+#preloadMessageWrapper{
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    text-align: center;
+}
+
+/*Preload Text*/
+h1 {
+    font-family: "arial";
+    font-size: 12px;
+    color: #B0AFCC;
+    
+}
+#preloadTxtMsg{
+    display: inline;
+}
+#preloadTxtPerc{
+    display: inline;
+      margin-left: 3px;
+}
+/*MANIPULATE CANVASES HERE*/
+#canvasContainer{
+/*    border: 1px solid #000;*/
+    display: inline-block;
+    position: relative;
+    width: 480px;
+    height: 320px;
+}
+
+ 
+/*BASE CANVAS*/
+/*Controls*/
+#btnSpin_canvas{
+    bottom: 0px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    left: 86%;
+}
+#btnAuto_canvas{
+    bottom: 0px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    left: 76%;
+}
+#btnInfo_canvas{
+    bottom: 0.5%;
+    display: block;
+    position: absolute;
+    margin: auto;
+    left: 10%;
+}
+#btnLineUp_canvas{
+    bottom: 1.2%;
+    display: block;
+    position: absolute;
+    margin: auto;
+    left: 44%;
+}
+#btnLineDown_canvas{
+    bottom: 1.2%;
+    display: block;
+    position: absolute;
+    margin: auto;
+    left: 33%;
+}
+#btnSettings_canvas{
+    bottom: 0.5%;
+    display: block;
+    position: absolute;
+    margin: auto;
+    left: 5%;
+}
+
+/*BetInfo*/
+#betInfoBG_Canvas{
+    bottom: -0.5%;
+    display: block;
+    position: absolute;
+    left: 15.5%;
+}
+#txtCredit_Canvas{
+    bottom: 2%;
+    display: block;
+    position: absolute;
+    left: 23.7%;
+}
+#txtTotalBet_Canvas{
+/*    border: 1px solid #000;*/
+    bottom: 2%;
+    display: block;
+    position: absolute;
+    left: 51%;
+}
+#txtTotalWin_Canvas{
+/*    border: 1px solid #000;*/
+    bottom: 2%;
+    display: block;
+    position: absolute;
+    left: 65.5%;
+}
+
+/*WHEEL*/
+#wheelWrapper{
+/*    border: 1px solid #000;*/
+    display: inline-block;
+    position: absolute;
+    top: 58px;
+    width: 408px;
+    height: 216px;
+    left: 42px;
+}
+
+/*Pop up controls*/
+#controlPopUpWrapper{
+    display: block;
+    position: absolute;
+    top: 0px;
+    display: none;
+}
+
+/*ERROR*/
+#errorWrapper{
+    display: block;
+    position: absolute;
+    top: 0px;
+    display: none;
+}
+
+
+/********CUSTOM**********/
+#themeCanvas{
+/*    border: 1px solid #000;*/
+    position: relative;
+    display: block;
+    margin: auto;    
+}
+#txtLinesLeft_Canvas{
+/*    border: 1px solid #000;*/
+    bottom: 57.5%;
+    display: block;
+    position: absolute;
+    left: 0.5%;
+}
+#txtLinesRight_Canvas{
+/*    border: 1px solid #000;*/
+    bottom: 57%;
+    display: block;
+    position: absolute;
+    left: 95.6%;
+}
+#txtInfoMessage_Canvas{
+/*    border: 1px solid #000;*/
+    bottom: 8%;
+    display: block;
+    position: absolute;
+/*    left: 6.6%;*/
+}
+
+/*Animated*/
+#animatedWrapper{
+/*    border: 1px solid #000;*/
+    display: inline-block;
+    position: absolute;
+    top: 58px;
+    left: 42px;
+}
+
+/*stackwild*/
+
+#stackWildWrapper{
+/*    border: 1px solid #000;*/
+    display: inline-block;
+    position: absolute;
+    top: 58px;
+    width: 409px;
+    height: 214px;
+    left: 36px;
+}
+
+/*Paylines*/
+#paylineWrapper{
+    display: inline-block;
+    position: absolute;
+    top: 92px;
+    left: 53px;
+}
+
+/*Paytable*/
+#paytableWrapper{
+/*    border: 1px solid #F00;*/
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/*BonusGame*/
+#bonusGameWrapper{
+/*    border: 1px solid #F00;*/
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/*FreeSpin Elements*/
+#fsWrapper{
+/*    border: 1px solid #F00;*/
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 152px;
+}
+
+/*FreeSpin Summary*/
+#fsSumWrapper{
+/*    border: 1px solid #F00;*/
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/*Jackpot Animation*/
+#jackpotWrapper{
+/*    border: 1px solid #F00;*/
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#anticipationWrapper{
+/*    border: 1px solid #000;*/
+    display: inline-block;
+    position: absolute;
+    top: 54px;
+    width: 409px;
+    height: 214px;
+    left: 33px;
+}
+
+#messageWrapper{
+/*    border: 1px solid #000;*/
+    display: inline-block;
+    position: absolute;
+    top: 280px;
+    width: 320px;
+    height: 15px;
+    left: 33px;
+}
+

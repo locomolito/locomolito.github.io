@@ -1,0 +1,280 @@
+/*PRELOADER*/
+/*hidden will only be visible once preloading starts. 
+also need to hide until js script loads and scale it based on window dimension
+code that handles the progress movement is in asset manager
+require the progressBarBg.png and logo from res folder
+*/
+#progressWrapper{
+    position: relative;
+    background-image: url("../res/Images/progressBarBg_1024x748.png");
+    background-repeat: no-repeat;
+    width: 639px;
+    height: 25px;
+}
+#progressBar{
+    /*max-width value needs to be exact. needed by assetmanager to properly compute the progress bar*/
+    border-radius: 25px;
+    width: 0px;
+    height: 10px;
+    background-image: url("../res/Images/progressBar_1024x748.png");
+    margin-left: 2.5px;
+    margin-top: 2.7px; 
+    position: absolute;
+    max-width: 635px;
+}
+#preloadLogo{
+    /*width and height based on actual dimension of image*/
+    /*using transform because my game logo is too big*/
+    background-image: url("../res/Images/logo.png");
+    background-repeat: no-repeat;
+    width: 322px;
+    height: 145px;
+    position: relative;
+    margin: 0px auto -10px;
+    transform: scale(0.7);
+}
+/*Preload Text*/
+h1 {
+    font-family: "arial";
+    font-size: 17px;
+    color: #B0AFCC;
+    
+}
+#preloadTxtPerc{
+    display: inline;
+    margin-left: 12px;
+}
+
+
+/*MANIPULATE CANVASES HERE*/
+#canvasContainer{
+    display: inline-block;
+    position: relative;
+    width: 1024px;
+    height: 748px;
+}
+/*ERROR*/
+#errorWrapper{
+    display: block;
+    position: absolute;
+    top: 0px;
+    display: none;
+}
+
+/*BASE CANVAS*/
+/*Controls*/
+#btnSpin_canvas{
+    bottom: 1%;
+    display: block;
+    position: absolute;
+    margin: auto;
+    left: 89%;
+}
+#btnAuto_canvas{
+    bottom: 1%;
+    display: block;
+    position: absolute;
+    margin: auto;
+    left: 78%;
+}
+#btnInfo_canvas{
+    bottom: 1%;
+    display: block;
+    position: absolute;
+    margin: auto;
+    left: 6.5%;
+}
+#btnLineUp_canvas{
+    display: block;
+    position: absolute;
+    margin: auto;
+    left: 43.2%;
+    bottom: 13.8px;
+}
+#btnLineDown_canvas{
+    bottom: 13.8px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    left: 31.8%;
+}
+#btnSettings_canvas{
+    bottom: 1%;
+    display: block;
+    position: absolute;
+    margin: auto;
+    left: 1%;
+}
+
+/*BetInfo*/
+#betInfoBG_Canvas{
+    bottom: 0.5%;
+    display: block;
+    position: absolute;
+    left: 133px;
+}
+#txtCredit_Canvas{
+    display: block;
+    position: absolute;
+    left: 21.6%;
+    bottom: 2.9%;
+}
+#txtTotalBet_Canvas{
+    bottom: 2.9%;
+    display: block;
+    position: absolute;
+    left: 51%;
+}
+#txtTotalWin_Canvas{
+    bottom: 2.9%;
+    display: block;
+    position: absolute;
+    left: 65.5%;
+}
+
+/*WHEEL*/
+#wheelWrapper{
+    display: inline-block;
+    position: absolute;
+    top: 129px;
+    width: 910px;
+    height: 493px;
+    left: 58px;
+
+}
+
+/*Pop up controls*/
+#controlPopUpWrapper{
+    display: block;
+    position: absolute;
+    top: 0px;
+    display: none;
+}
+
+
+/********CUSTOM**********/
+/*THEME*/
+#themeCanvas{
+/*    border: 1px solid #000;*/
+    position: relative;
+    display: block;
+    margin: auto;    
+}
+#txtLinesLeft_Canvas{
+/*    border: 1px solid #000;*/
+    bottom: 56%;
+    display: block;
+    position: absolute;
+    left: 2%;
+}
+#txtLinesRight_Canvas{
+/*    border: 1px solid #000;*/
+    bottom: 56%;
+    display: block;
+    position: absolute;
+    left: 94.6%;
+}
+#txtInfoMessage_Canvas{
+/*    border: 1px solid #000;*/
+    bottom: 8%;
+    display: block;
+    position: absolute;
+/*    left: 6.6%;*/
+}
+
+/*Animated*/
+#animatedWrapper{
+/*    border: 1px solid #000;*/
+    display: inline-block;
+    position: absolute;
+    top: 129px;
+/*    width: 910px;
+    height: 493px;*/
+    left: 58px;
+}
+
+/*stackwild*/
+
+#stackWildWrapper{
+/*    border: 1px solid #000;*/
+    display: inline-block;
+    position: absolute;
+    top: 130px;
+    width: 910px;
+    height: 493px;
+    left: 61px;
+}
+
+/*Paylines*/
+#paylineWrapper{
+    display: inline-block;
+    position: absolute;
+    top: 204px;
+    left: 147px;
+}
+
+/*Paytable*/
+#paytableWrapper{
+/*    border: 1px solid #F00;*/
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/*BonusGame*/
+#bonusGameWrapper{
+/*    border: 1px solid #F00;*/
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/*FreeSpin Elements*/
+#fsWrapper{
+/*    border: 1px solid #F00;*/
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 337px;
+}
+
+/*FreeSpin Summary*/
+#fsSumWrapper{
+/*    border: 1px solid #F00;*/
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/*Jackpot Animation*/
+#jackpotWrapper{
+/*    border: 1px solid #F00;*/
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#anticipationWrapper{
+/*    border: 1px solid #000;*/
+    display: inline-block;
+    position: absolute;
+    top: 113px;
+    width: 946px;
+    height: 537px;
+    left: 43px;
+}
+
+#messageWrapper{
+/*    border: 1px solid #000;*/
+    display: inline-block;
+    position: absolute;
+    top: 644px;
+    width: 757px;
+    height: 36px;
+    left: 20px;
+}
+

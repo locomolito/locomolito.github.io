@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'OCRAStd';
+  src: url('OCRAStd.eot');
+  src: url('OCRAStd.eot?#iefix') format('embedded-opentype'),
+       url('OCRAStd.woff2') format('woff2'),
+       url('OCRAStd.woff') format('woff'),
+       url('OCRAStd.ttf') format('truetype'),
+       url('OCRAStd.svg#OCRAStd') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

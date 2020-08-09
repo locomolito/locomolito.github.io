@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'ObelixPro-Bold';
+  src: url('ObelixPro-Bold.eot');
+  src: url('ObelixPro-Bold.eot?#iefix') format('embedded-opentype'),
+       url('ObelixPro-Bold.woff2') format('woff2'),
+       url('ObelixPro-Bold.woff') format('woff'),
+       url('ObelixPro-Bold.ttf') format('truetype'),
+       url('ObelixPro-Bold.svg#ObelixPro-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

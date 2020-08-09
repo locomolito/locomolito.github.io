@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'MainframeBBBold';
+  src: url('MainframeBBBold.eot');
+  src: url('MainframeBBBold.eot?#iefix') format('embedded-opentype'),
+       url('MainframeBBBold.woff2') format('woff2'),
+       url('MainframeBBBold.woff') format('woff'),
+       url('MainframeBBBold.ttf') format('truetype'),
+       url('MainframeBBBold.svg#MainframeBBBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

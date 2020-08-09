@@ -1,0 +1,51 @@
+{
+"images": ["Settings.png"],
+"frames": [
+
+    [189, 2, 23, 18], 
+    [214, 20, 21, 16], 
+    [214, 2, 21, 16], 
+    [2, 226, 75, 18], 
+    [2, 206, 75, 18], 
+    [2, 186, 75, 18], 
+    [2, 2, 108, 78], 
+    [147, 102, 75, 18], 
+    [70, 102, 75, 18], 
+    [147, 82, 75, 18], 
+    [70, 82, 75, 18], 
+    [112, 62, 75, 18], 
+    [112, 42, 75, 18], 
+    [112, 22, 75, 18], 
+    [112, 2, 75, 18], 
+    [2, 160, 66, 24], 
+    [2, 134, 66, 24], 
+    [2, 108, 66, 24], 
+    [2, 82, 66, 24]
+],
+"animations": {
+    
+        "btnClose_mousedown":[0], 
+        "btnClose_mouseout":[1], 
+        "btnClose_mouseover":[2], 
+        "btnStartPlay_mousedown":[3], 
+        "btnStartPlay_mouseout":[4], 
+        "btnStartPlay_mouseover":[5], 
+        "selection_box":[6], 
+        "tabAutoplay_mousedown":[7], 
+        "tabAutoplay_mouseout":[8], 
+        "tabAutoplay_mouseover":[9], 
+        "tabAutoplay_selected":[10], 
+        "tabOption_mousedown":[11], 
+        "tabOption_mouseout":[12], 
+        "tabOption_mouseover":[13], 
+        "tabOption_selected":[14], 
+        "toggleOff_mouseout":[15], 
+        "toggleOff_mouseover":[16], 
+        "toggleOn_mouseout":[17], 
+        "toggleOn_mouseover":[18]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:dde852522bda426bec747eb6e6be66fc:201d4ebebace310c326fea6e19fd156e:29445fabaa64794effa35ea0afedb603$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EaselJS"
+]
+}
