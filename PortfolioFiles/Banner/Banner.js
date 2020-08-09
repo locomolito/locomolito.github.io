@@ -4841,9 +4841,9 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.instance.parent = this;
 	this.instance.setTransform(56.45,196.35,0.9999,0.9999,0,-9.6667,170.3333,-0.2,-30.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(140).to({startPosition:0},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = p = new cjs.MovieClip();
+}).prototype = getMCSymbolPrototype(lib._refereeMIdle_upperLeg_1, null, null);
 
 
 (lib._refereeMIdle_upperLeg = function(mode,startPosition,loop) {
@@ -4854,9 +4854,9 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.instance.parent = this;
 	this.instance.setTransform(34.05,198.75,0.9999,0.9999,2.0053,0,0,0.3,-29.9);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(140).to({startPosition:0},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = p = new cjs.MovieClip();
+}).prototype = getMCSymbolPrototype(lib._refereeMIdle_upperLeg, null, null);
 
 
 (lib._refereeMIdle_upperArm_1 = function(mode,startPosition,loop) {
@@ -4867,9 +4867,9 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.instance.parent = this;
 	this.instance.setTransform(68,81.7,1,1,0,-8.5228,171.4772,-0.1,-25.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(140).to({startPosition:0},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = p = new cjs.MovieClip();
+}).prototype = getMCSymbolPrototype(lib._refereeMIdle_upperArm_1, null, null);
 
 
 (lib._refereeMIdle_upperArm = function(mode,startPosition,loop) {
@@ -4880,9 +4880,9 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.instance.parent = this;
 	this.instance.setTransform(20.6,81.7,1,1,8.5136,0,0,0.1,-25.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(140).to({startPosition:0},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = p = new cjs.MovieClip();
+}).prototype = getMCSymbolPrototype(lib._refereeMIdle_upperArm, null, null);
 
 
 (lib._refereeMIdle_pelvis = function(mode,startPosition,loop) {
@@ -4893,9 +4893,9 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.instance.parent = this;
 	this.instance.setTransform(44.8,184.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(140).to({startPosition:0},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = p = new cjs.MovieClip();
+}).prototype = getMCSymbolPrototype(lib._refereeMIdle_pelvis, null, null);
 
 
 (lib._refereeMIdle_lowerLeg_1 = function(mode,startPosition,loop) {
@@ -4906,9 +4906,9 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.instance.parent = this;
 	this.instance.setTransform(34.1,263.4,0.9999,0.9999,0,-0.7345,179.2656,-0.2,-33.9);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(140).to({skewY:179.2655},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = p = new cjs.MovieClip();
+}).prototype = getMCSymbolPrototype(lib._refereeMIdle_lowerLeg_1, null, null);
 
 
 (lib._refereeMIdle_lowerLeg = function(mode,startPosition,loop) {
@@ -4919,9 +4919,9 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.instance.parent = this;
 	this.instance.setTransform(64.95,261.25,0.9999,0.9999,-5.7312,0,0,0.1,-34);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(140).to({startPosition:0},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = p = new cjs.MovieClip();
+}).prototype = getMCSymbolPrototype(lib._refereeMIdle_lowerLeg, null, null);
 
 
 (lib._refereeMIdle_lowerArm_1 = function(mode,startPosition,loop) {
@@ -4932,9 +4932,9 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.instance.parent = this;
 	this.instance.setTransform(75.5,133.4,1,1,0,-8.7268,171.2732,0,-26.9);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(140).to({regX:-0.1,x:75.6},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = p = new cjs.MovieClip();
+}).prototype = getMCSymbolPrototype(lib._refereeMIdle_lowerArm_1, null, null);
 
 
 (lib._refereeMIdle_lowerArm = function(mode,startPosition,loop) {
@@ -4945,9 +4945,9 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.instance.parent = this;
 	this.instance.setTransform(12.75,134.25,1,1,5.5086,0,0,0.1,-27);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(140).to({startPosition:0},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = p = new cjs.MovieClip();
+}).prototype = getMCSymbolPrototype(lib._refereeMIdle_lowerArm, null, null);
 
 
 (lib._refereeMIdle_hands_1 = function(mode,startPosition,loop) {
@@ -4958,9 +4958,9 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.instance.parent = this;
 	this.instance.setTransform(86.2,192.95,0.9999,0.9999,148.342,0,0,-3,7);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(140).to({startPosition:0},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = p = new cjs.MovieClip();
+}).prototype = getMCSymbolPrototype(lib._refereeMIdle_hands_1, null, null);
 
 
 (lib._refereeMIdle_hands = function(mode,startPosition,loop) {
@@ -4971,9 +4971,9 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.instance.parent = this;
 	this.instance.setTransform(6.2,192.75,0.9999,0.9999,0,-152.0127,27.9873,-2.7,7.2);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(140).to({startPosition:0},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = p = new cjs.MovieClip();
+}).prototype = getMCSymbolPrototype(lib._refereeMIdle_hands, null, null);
 
 
 (lib._refereeMIdle_feet_1 = function(mode,startPosition,loop) {
@@ -4984,9 +4984,9 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.instance.parent = this;
 	this.instance.setTransform(33.15,334.55,0.9998,0.9998,0,2.0789,-177.9211,-7.1,-2.8);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(140).to({startPosition:0},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = p = new cjs.MovieClip();
+}).prototype = getMCSymbolPrototype(lib._refereeMIdle_feet_1, null, null);
 
 
 (lib._refereeMIdle_feet = function(mode,startPosition,loop) {
@@ -4997,9 +4997,9 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.instance.parent = this;
 	this.instance.setTransform(73.65,332.7,0.9998,0.9998,-0.8412,0,0,-7,-3);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(140).to({startPosition:0},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = p = new cjs.MovieClip();
+}).prototype = getMCSymbolPrototype(lib._refereeMIdle_feet, null, null);
 
 
 (lib._refereeMIdle_body = function(mode,startPosition,loop) {
@@ -5014,9 +5014,9 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(45.05,67.8,1,1,0,0,0,0,1.8);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance,p:{regY:51.6,y:175.35}}]}).to({state:[{t:this.instance,p:{regY:0,y:123.75}}]},140).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
 
-}).prototype = p = new cjs.MovieClip();
+}).prototype = getMCSymbolPrototype(lib._refereeMIdle_body, null, null);
 
 
 (lib._redOfficeIdle_upperLeg_1 = function(mode,startPosition,loop) {
@@ -5597,7 +5597,7 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	// upperArm
 	this.instance = new lib.upperArm_4("single",0);
 	this.instance.parent = this;
-	this.instance.setTransform(26.25,83.45,1,1,8.5136,0,0,0.1,-25.1);
+	this.instance.setTransform(62.75,83.35,1,1,0,-8.5228,171.4772,-0.1,-25.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(51));
 
@@ -5610,7 +5610,7 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	// upperArm
 	this.instance = new lib.upperArm_4("single",0);
 	this.instance.parent = this;
-	this.instance.setTransform(64.15,83.45,1,1,0,-8.5228,171.4772,-0.1,-25.1);
+	this.instance.setTransform(26.25,83.45,1,1,8.5136,0,0,0.1,-25.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(51));
 
@@ -5877,20 +5877,6 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 
 	this.timeline.addTween(cjs.Tween.get(this.lowerArm).wait(51));
 
-	// upperArm_obj_
-	this.upperArm = new lib._minerF_upperArm();
-	this.upperArm.name = "upperArm";
-	this.upperArm.parent = this;
-	this.upperArm.setTransform(67.7,108.3,1,1,0,0,0,67.7,108.3);
-	this.upperArm.depth = 0;
-	this.upperArm.isAttachedToCamera = 0
-	this.upperArm.isAttachedToMask = 0
-	this.upperArm.layerDepth = 0
-	this.upperArm.layerIndex = 2
-	this.upperArm.maskLayerName = 0
-
-	this.timeline.addTween(cjs.Tween.get(this.upperArm).wait(51));
-
 	// hands_obj_
 	this.hands_1 = new lib._minerF_hands_1();
 	this.hands_1.name = "hands_1";
@@ -5900,7 +5886,7 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.hands_1.isAttachedToCamera = 0
 	this.hands_1.isAttachedToMask = 0
 	this.hands_1.layerDepth = 0
-	this.hands_1.layerIndex = 3
+	this.hands_1.layerIndex = 2
 	this.hands_1.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.hands_1).wait(51));
@@ -5914,7 +5900,7 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.eyes.isAttachedToCamera = 0
 	this.eyes.isAttachedToMask = 0
 	this.eyes.layerDepth = 0
-	this.eyes.layerIndex = 4
+	this.eyes.layerIndex = 3
 	this.eyes.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.eyes).wait(51));
@@ -5928,7 +5914,7 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.hair.isAttachedToCamera = 0
 	this.hair.isAttachedToMask = 0
 	this.hair.layerDepth = 0
-	this.hair.layerIndex = 5
+	this.hair.layerIndex = 4
 	this.hair.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.hair).wait(51));
@@ -5942,7 +5928,7 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.mouth.isAttachedToCamera = 0
 	this.mouth.isAttachedToMask = 0
 	this.mouth.layerDepth = 0
-	this.mouth.layerIndex = 6
+	this.mouth.layerIndex = 5
 	this.mouth.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.mouth).wait(51));
@@ -5956,7 +5942,7 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.skull.isAttachedToCamera = 0
 	this.skull.isAttachedToMask = 0
 	this.skull.layerDepth = 0
-	this.skull.layerIndex = 7
+	this.skull.layerIndex = 6
 	this.skull.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.skull).wait(51));
@@ -5970,7 +5956,7 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.ears.isAttachedToCamera = 0
 	this.ears.isAttachedToMask = 0
 	this.ears.layerDepth = 0
-	this.ears.layerIndex = 8
+	this.ears.layerIndex = 7
 	this.ears.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.ears).wait(51));
@@ -5984,7 +5970,7 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.neck.isAttachedToCamera = 0
 	this.neck.isAttachedToMask = 0
 	this.neck.layerDepth = 0
-	this.neck.layerIndex = 9
+	this.neck.layerIndex = 8
 	this.neck.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.neck).wait(51));
@@ -5998,7 +5984,7 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.hairBack.isAttachedToCamera = 0
 	this.hairBack.isAttachedToMask = 0
 	this.hairBack.layerDepth = 0
-	this.hairBack.layerIndex = 10
+	this.hairBack.layerIndex = 9
 	this.hairBack.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.hairBack).wait(51));
@@ -6012,7 +5998,7 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.body.isAttachedToCamera = 0
 	this.body.isAttachedToMask = 0
 	this.body.layerDepth = 0
-	this.body.layerIndex = 11
+	this.body.layerIndex = 10
 	this.body.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.body).wait(51));
@@ -6026,7 +6012,7 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.pelvis.isAttachedToCamera = 0
 	this.pelvis.isAttachedToMask = 0
 	this.pelvis.layerDepth = 0
-	this.pelvis.layerIndex = 12
+	this.pelvis.layerIndex = 11
 	this.pelvis.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.pelvis).wait(51));
@@ -6040,7 +6026,7 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.feet.isAttachedToCamera = 0
 	this.feet.isAttachedToMask = 0
 	this.feet.layerDepth = 0
-	this.feet.layerIndex = 13
+	this.feet.layerIndex = 12
 	this.feet.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.feet).wait(51));
@@ -6054,7 +6040,7 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.upperLeg.isAttachedToCamera = 0
 	this.upperLeg.isAttachedToMask = 0
 	this.upperLeg.layerDepth = 0
-	this.upperLeg.layerIndex = 14
+	this.upperLeg.layerIndex = 13
 	this.upperLeg.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.upperLeg).wait(51));
@@ -6068,24 +6054,24 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.lowerLeg.isAttachedToCamera = 0
 	this.lowerLeg.isAttachedToMask = 0
 	this.lowerLeg.layerDepth = 0
-	this.lowerLeg.layerIndex = 15
+	this.lowerLeg.layerIndex = 14
 	this.lowerLeg.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.lowerLeg).wait(51));
 
 	// upperArm_obj_
-	this.upperArm_1 = new lib._minerF_upperArm_1();
-	this.upperArm_1.name = "upperArm_1";
-	this.upperArm_1.parent = this;
-	this.upperArm_1.setTransform(22.5,108.3,1,1,0,0,0,22.5,108.3);
-	this.upperArm_1.depth = 0;
-	this.upperArm_1.isAttachedToCamera = 0
-	this.upperArm_1.isAttachedToMask = 0
-	this.upperArm_1.layerDepth = 0
-	this.upperArm_1.layerIndex = 16
-	this.upperArm_1.maskLayerName = 0
+	this.upperArm = new lib._minerF_upperArm();
+	this.upperArm.name = "upperArm";
+	this.upperArm.parent = this;
+	this.upperArm.setTransform(22.5,108.3,1,1,0,0,0,22.5,108.3);
+	this.upperArm.depth = 0;
+	this.upperArm.isAttachedToCamera = 0
+	this.upperArm.isAttachedToMask = 0
+	this.upperArm.layerDepth = 0
+	this.upperArm.layerIndex = 15
+	this.upperArm.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.upperArm_1).wait(51));
+	this.timeline.addTween(cjs.Tween.get(this.upperArm).wait(51));
 
 	// lowerArm_obj_
 	this.lowerArm_1 = new lib._minerF_lowerArm_1();
@@ -6096,7 +6082,7 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.lowerArm_1.isAttachedToCamera = 0
 	this.lowerArm_1.isAttachedToMask = 0
 	this.lowerArm_1.layerDepth = 0
-	this.lowerArm_1.layerIndex = 17
+	this.lowerArm_1.layerIndex = 16
 	this.lowerArm_1.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.lowerArm_1).wait(51));
@@ -6110,7 +6096,7 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.feet_1.isAttachedToCamera = 0
 	this.feet_1.isAttachedToMask = 0
 	this.feet_1.layerDepth = 0
-	this.feet_1.layerIndex = 18
+	this.feet_1.layerIndex = 17
 	this.feet_1.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.feet_1).wait(51));
@@ -6124,7 +6110,7 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.upperLeg_1.isAttachedToCamera = 0
 	this.upperLeg_1.isAttachedToMask = 0
 	this.upperLeg_1.layerDepth = 0
-	this.upperLeg_1.layerIndex = 19
+	this.upperLeg_1.layerIndex = 18
 	this.upperLeg_1.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.upperLeg_1).wait(51));
@@ -6138,10 +6124,24 @@ p.nominalBounds = new cjs.Rectangle(6.8,5.6,77.60000000000001,334.9);
 	this.lowerLeg_1.isAttachedToCamera = 0
 	this.lowerLeg_1.isAttachedToMask = 0
 	this.lowerLeg_1.layerDepth = 0
-	this.lowerLeg_1.layerIndex = 20
+	this.lowerLeg_1.layerIndex = 19
 	this.lowerLeg_1.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.lowerLeg_1).wait(51));
+
+	// upperArm_obj_
+	this.upperArm_1 = new lib._minerF_upperArm_1();
+	this.upperArm_1.name = "upperArm_1";
+	this.upperArm_1.parent = this;
+	this.upperArm_1.setTransform(66.3,108.2,1,1,0,0,0,66.3,108.2);
+	this.upperArm_1.depth = 0;
+	this.upperArm_1.isAttachedToCamera = 0
+	this.upperArm_1.isAttachedToMask = 0
+	this.upperArm_1.layerDepth = 0
+	this.upperArm_1.layerIndex = 20
+	this.upperArm_1.maskLayerName = 0
+
+	this.timeline.addTween(cjs.Tween.get(this.upperArm_1).wait(51));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(7.9,5.6,78.5,334.9);
@@ -7982,21 +7982,13 @@ p.nominalBounds = new cjs.Rectangle(-0.3,-0.9,96.8,343.09999999999997);
 	this.shape_1.graphics.f("#F8C09D").s().p("AClAnQgQgQAAgXQAAgWARgPQARgQAYAAQAXAAASAQQARAPAAAWQABAXgTAQQgRAQgXAAQgYAAgSgQgACzgZQgMAMgBAOQABAPAMALQALAMARAAQAQAAAMgMQAMgLAAgPQAAgOgMgMQgMgLgQAAQgQAAgMALgAj4AmQgHgGgDgHQgHgMAAgNQAAgNAHgLQAEgIAHgGQARgQAYAAQAXAAARAQQARAQAAAWQAAAXgSAPQgQARgYgBQgYABgRgRgAjqgaQgMAMAAAOQAAAQAMAKQAKAMARAAQAQAAANgMQAMgKAAgQQAAgOgMgMQgMgLgQAAQgRAAgLALg");
 	this.shape_1.setTransform(44.3,40.65);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(141));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
 
-}).prototype = p = new cjs.MovieClip();
+}).prototype = getMCSymbolPrototype(lib._refereeMIdle_Layer_2, null, null);
 
 
 (lib._refereeMIdle = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
-
-	// timeline functions:
-	this.frame_140 = function() {
-		this.___loopingOver___ = true;
-	}
-
-	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(140).call(this.frame_140).wait(1));
 
 	// Layer_2_obj_
 	this.Layer_2 = new lib._refereeMIdle_Layer_2();
@@ -8010,7 +8002,7 @@ p.nominalBounds = new cjs.Rectangle(-0.3,-0.9,96.8,343.09999999999997);
 	this.Layer_2.layerIndex = 0
 	this.Layer_2.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.Layer_2).wait(141));
+	this.timeline.addTween(cjs.Tween.get(this.Layer_2).wait(1));
 
 	// upperArm_obj_
 	this.upperArm = new lib._refereeMIdle_upperArm();
@@ -8024,7 +8016,7 @@ p.nominalBounds = new cjs.Rectangle(-0.3,-0.9,96.8,343.09999999999997);
 	this.upperArm.layerIndex = 1
 	this.upperArm.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.upperArm).wait(141));
+	this.timeline.addTween(cjs.Tween.get(this.upperArm).wait(1));
 
 	// lowerArm_obj_
 	this.lowerArm = new lib._refereeMIdle_lowerArm();
@@ -8038,7 +8030,7 @@ p.nominalBounds = new cjs.Rectangle(-0.3,-0.9,96.8,343.09999999999997);
 	this.lowerArm.layerIndex = 2
 	this.lowerArm.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.lowerArm).wait(141));
+	this.timeline.addTween(cjs.Tween.get(this.lowerArm).wait(1));
 
 	// hands_obj_
 	this.hands = new lib._refereeMIdle_hands();
@@ -8052,7 +8044,7 @@ p.nominalBounds = new cjs.Rectangle(-0.3,-0.9,96.8,343.09999999999997);
 	this.hands.layerIndex = 3
 	this.hands.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.hands).wait(141));
+	this.timeline.addTween(cjs.Tween.get(this.hands).wait(1));
 
 	// pelvis_obj_
 	this.pelvis = new lib._refereeMIdle_pelvis();
@@ -8066,7 +8058,7 @@ p.nominalBounds = new cjs.Rectangle(-0.3,-0.9,96.8,343.09999999999997);
 	this.pelvis.layerIndex = 4
 	this.pelvis.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.pelvis).wait(141));
+	this.timeline.addTween(cjs.Tween.get(this.pelvis).wait(1));
 
 	// body_obj_
 	this.body = new lib._refereeMIdle_body();
@@ -8080,7 +8072,7 @@ p.nominalBounds = new cjs.Rectangle(-0.3,-0.9,96.8,343.09999999999997);
 	this.body.layerIndex = 5
 	this.body.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.body).wait(141));
+	this.timeline.addTween(cjs.Tween.get(this.body).wait(1));
 
 	// upperLeg_obj_
 	this.upperLeg = new lib._refereeMIdle_upperLeg();
@@ -8094,7 +8086,7 @@ p.nominalBounds = new cjs.Rectangle(-0.3,-0.9,96.8,343.09999999999997);
 	this.upperLeg.layerIndex = 6
 	this.upperLeg.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.upperLeg).wait(141));
+	this.timeline.addTween(cjs.Tween.get(this.upperLeg).wait(1));
 
 	// lowerLeg_obj_
 	this.lowerLeg = new lib._refereeMIdle_lowerLeg();
@@ -8108,7 +8100,7 @@ p.nominalBounds = new cjs.Rectangle(-0.3,-0.9,96.8,343.09999999999997);
 	this.lowerLeg.layerIndex = 7
 	this.lowerLeg.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.lowerLeg).wait(141));
+	this.timeline.addTween(cjs.Tween.get(this.lowerLeg).wait(1));
 
 	// feet_obj_
 	this.feet = new lib._refereeMIdle_feet();
@@ -8122,7 +8114,7 @@ p.nominalBounds = new cjs.Rectangle(-0.3,-0.9,96.8,343.09999999999997);
 	this.feet.layerIndex = 8
 	this.feet.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.feet).wait(141));
+	this.timeline.addTween(cjs.Tween.get(this.feet).wait(1));
 
 	// upperLeg_obj_
 	this.upperLeg_1 = new lib._refereeMIdle_upperLeg_1();
@@ -8136,7 +8128,7 @@ p.nominalBounds = new cjs.Rectangle(-0.3,-0.9,96.8,343.09999999999997);
 	this.upperLeg_1.layerIndex = 9
 	this.upperLeg_1.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.upperLeg_1).wait(141));
+	this.timeline.addTween(cjs.Tween.get(this.upperLeg_1).wait(1));
 
 	// lowerLeg_obj_
 	this.lowerLeg_1 = new lib._refereeMIdle_lowerLeg_1();
@@ -8150,7 +8142,7 @@ p.nominalBounds = new cjs.Rectangle(-0.3,-0.9,96.8,343.09999999999997);
 	this.lowerLeg_1.layerIndex = 10
 	this.lowerLeg_1.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.lowerLeg_1).wait(141));
+	this.timeline.addTween(cjs.Tween.get(this.lowerLeg_1).wait(1));
 
 	// feet_obj_
 	this.feet_1 = new lib._refereeMIdle_feet_1();
@@ -8164,7 +8156,7 @@ p.nominalBounds = new cjs.Rectangle(-0.3,-0.9,96.8,343.09999999999997);
 	this.feet_1.layerIndex = 11
 	this.feet_1.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.feet_1).wait(141));
+	this.timeline.addTween(cjs.Tween.get(this.feet_1).wait(1));
 
 	// lowerArm_obj_
 	this.lowerArm_1 = new lib._refereeMIdle_lowerArm_1();
@@ -8178,7 +8170,7 @@ p.nominalBounds = new cjs.Rectangle(-0.3,-0.9,96.8,343.09999999999997);
 	this.lowerArm_1.layerIndex = 12
 	this.lowerArm_1.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.lowerArm_1).wait(141));
+	this.timeline.addTween(cjs.Tween.get(this.lowerArm_1).wait(1));
 
 	// upperArm_obj_
 	this.upperArm_1 = new lib._refereeMIdle_upperArm_1();
@@ -8192,7 +8184,7 @@ p.nominalBounds = new cjs.Rectangle(-0.3,-0.9,96.8,343.09999999999997);
 	this.upperArm_1.layerIndex = 13
 	this.upperArm_1.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.upperArm_1).wait(141));
+	this.timeline.addTween(cjs.Tween.get(this.upperArm_1).wait(1));
 
 	// hands_obj_
 	this.hands_1 = new lib._refereeMIdle_hands_1();
@@ -8206,10 +8198,9 @@ p.nominalBounds = new cjs.Rectangle(-0.3,-0.9,96.8,343.09999999999997);
 	this.hands_1.layerIndex = 14
 	this.hands_1.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.hands_1).wait(141));
+	this.timeline.addTween(cjs.Tween.get(this.hands_1).wait(1));
 
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-14.3,-19.8,116.1,362);
+}).prototype = getMCSymbolPrototype(lib._refereeMIdle, new cjs.Rectangle(-14.3,-19.8,116.1,362), null);
 
 
 (lib.Scene_1_Layer_2 = function(mode,startPosition,loop) {
